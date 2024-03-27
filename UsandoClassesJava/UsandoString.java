@@ -1,7 +1,7 @@
 //Exemplo didáico para uso de string
 // no qual um texto é convertido em maisculo e minusculo
 
-package UsandoClassesJava;
+
 
 public class UsandoString {
     public static void main(String[] args) {
