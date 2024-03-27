@@ -1,12 +1,12 @@
 import java.util.Date;
-public class UsandoDate{
-    public static void main(String[] args){
-        //entrada
-        Date agora; //declarar o objeto agora
-        agora =  new Date(); //instanciar o objeto agora
 
+public class UsandoDate {
+    public static void main(String[] args) {
+        // entrada
+        Date agora; // declarar o objeto agora
+        agora = new Date(); // instanciar o objeto agora
 
-        //processamento
+        // processamento
         int dia = agora.getDate();
         int mes = agora.getMonth();
         int ano = agora.getYear();
@@ -19,11 +19,10 @@ public class UsandoDate{
 
         Date amanha = new Date(124, 2, 28);
 
+        // saida
 
-        //saida
-        
         System.out.println(aniversario.toString());
         System.out.println(amanha);
-        System.out.println( dia + "/" + (mes + 1) + "/" + (ano + 1900) );
+        System.out.println(dia + "/" + (mes + 1) + "/" + (ano + 1900));
     }
 }
