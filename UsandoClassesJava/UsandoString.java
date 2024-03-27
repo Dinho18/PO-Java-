@@ -20,6 +20,13 @@ public class UsandoString {
 
         endereco = endereco.toUpperCase(); // altera o conteudo original para maiuscula
 
+        if(texto.equalsIgnoreCase("joao")){
+
+        }
+
+        int idade = 19;
+        String idadeStr = String.valueOf(idade); 
+
         // Saida
         System.out.println(textoMaiusculo); // imprime o objeto na tela
         System.out.println(textoMinusculo);// imprime o objeto na tela
